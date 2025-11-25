@@ -1,0 +1,15 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(161, 134, 122);
+}
+input{
+    background-color: rgb(151, 116, 145);
+    color: bisque; 
+}
+::placeholder {
+  color: bisque;
+}
+input{
+    cursor: pointer;
+}
+

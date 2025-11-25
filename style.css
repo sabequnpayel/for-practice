@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(86, 97, 66);
+}
+
+
+nav ul{
+    display: flex;
+    gap: 10px;
+list-style-type: none;
+}
+
+nav ul a{
+text-decoration: none;
+color: burlywood;
+}
+nav li:hover{
+    background-color:rgb(116, 87, 87);
+    
+}
+
+
