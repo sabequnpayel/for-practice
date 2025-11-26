@@ -1,0 +1,56 @@
+.cue{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    border: 2px solid rgb(18, 18, 18);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(59, 58, 57);
+}
+.card h3{
+    font-size: 1.25em;
+    font-weight: 700;
+}
+.card-section{
+    text-align: center;
+}
+.card button{
+    background-color: bisque;
+    padding: 10px 20px;
+    font-size: 0.75em;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color:rgb(116, 87, 87);
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+list-style-type: none;
+}
+
+nav ul a{
+text-decoration: none;
+color: burlywood;
+}
+nav li:hover{
+    background-color:rgb(116, 87, 87);
+    
+}
+body{
+   background-color:rgb(104, 81, 100);
+   max-width: 1170px;
+   margin: 0 auto;
+}  
+
+

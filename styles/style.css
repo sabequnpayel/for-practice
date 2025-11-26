@@ -17,5 +17,11 @@ nav li:hover{
     background-color:rgb(116, 87, 87);
     
 }
+#font{
+    font-size: 1.25em;
+    text-align: center;
+}
 
-
+#purple{
+    background-color:rgb(104, 81, 100);
+}
