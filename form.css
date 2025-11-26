@@ -1,9 +1,9 @@
 body{
     color: rgb(0, 0, 0);
-    background-color: rgb(161, 134, 122);
+    background-color:rgb(104, 81, 100) ;
 }
 input{
-    background-color: rgb(151, 116, 145);
+    background-color: rgb(161, 134, 122);
     color: bisque; 
 }
 ::placeholder {
@@ -13,3 +13,17 @@ input{
     cursor: pointer;
 }
 
+nav ul{
+    display: flex;
+    gap: 10px;
+list-style-type: none;
+}
+
+nav ul a{
+text-decoration: none;
+color: burlywood;
+}
+nav li:hover{
+    background-color:rgb(116, 87, 87);
+    
+}
